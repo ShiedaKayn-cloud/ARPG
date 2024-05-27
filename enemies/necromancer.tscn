@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b46o4ial6sjjp"]
+
+[ext_resource type="Texture2D" uid="uid://b4mmqevkfum1f" path="res://art/Necromancer_creativekind-Sheet.png" id="1_r4xhy"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_r4xhy")
+hframes = 17
+vframes = 5

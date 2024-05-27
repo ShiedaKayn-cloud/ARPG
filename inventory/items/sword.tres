@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="damage_item" load_steps=3 format=3 uid="uid://frnjvqpfuoj0"]
+
+[ext_resource type="Script" path="res://inventory/items/damage_item.gd" id="1_48jwq"]
+[ext_resource type="Texture2D" uid="uid://ddiatkf8a0ocl" path="res://art/Sprite.png" id="2_dqubf"]
+
+[resource]
+script = ExtResource("1_48jwq")
+item_name = "sword"
+item_type = "weapon"
+texture = ExtResource("2_dqubf")
+maxAmountPrStack = 1
